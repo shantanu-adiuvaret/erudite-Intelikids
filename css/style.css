@@ -190,6 +190,72 @@ h6,
   bottom: 0;
   background: url(../img/bg-header-bottom.png) center center repeat-x;
 }
+/*** Header ***/
+.header-carousel::before,
+.header-carousel::after,
+.page-header-1::before,
+.page-header-1::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10px;
+  top: 0;
+  left: 0;
+  background: url(../img/bg-header-top.png) center center repeat-x;
+  z-index: 1;
+}
+
+.header-carousel::after,
+.page-header-1::after {
+  height: 19px;
+  top: auto;
+  bottom: 0;
+  background: url(../img/bg-header-bottom.png) center center repeat-x;
+}
+/*** Header ***/
+.header-carousel::before,
+.header-carousel::after,
+.page-header-2::before,
+.page-header-2::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10px;
+  top: 0;
+  left: 0;
+  background: url(../img/bg-header-top.png) center center repeat-x;
+  z-index: 1;
+}
+
+.header-carousel::after,
+.page-header-2::after {
+  height: 19px;
+  top: auto;
+  bottom: 0;
+  background: url(../img/bg-header-bottom.png) center center repeat-x;
+}
+/*** Header ***/
+.header-carousel::before,
+.header-carousel::after,
+.page-header-3::before,
+.page-header-3::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 10px;
+  top: 0;
+  left: 0;
+  background: url(../img/bg-header-top.png) center center repeat-x;
+  z-index: 1;
+}
+
+.header-carousel::after,
+.page-header-3::after {
+  height: 19px;
+  top: auto;
+  bottom: 0;
+  background: url(../img/bg-header-bottom.png) center center repeat-x;
+}
 
 @media (max-width: 768px) {
   .header-carousel .owl-carousel-item {
@@ -247,13 +313,42 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
     url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
-
-
+.page-header-1 {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/carousel-3.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-2 {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/carousel-4.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-3 {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../img/carousel-5.jpg) center center no-repeat;
+  background-size: cover;
+}
 
 .breadcrumb-item + .breadcrumb-item::before {
   color: rgba(255, 255, 255, 0.5);
